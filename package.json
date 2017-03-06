@@ -1,0 +1,52 @@
+{
+  "name": "leantesting",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "rnpm": {
+    "assets": [
+      "assets"
+    ]
+  },
+  "dependencies": {
+    "@exponent/ex-navigation": "^2.6.0",
+    "@exponent/react-native-image-gallery": "^1.0.4",
+    "@shoutem/ui": "^0.10.3",
+    "axios": "^0.15.3",
+    "exponent": "^13.0.0-rc.1",
+    "humps": "^2.0.0",
+    "immutable": "^3.8.1",
+    "lodash": "^4.17.3",
+    "normalizr": "2.3.0",
+    "numeral": "^2.0.4",
+    "react": "15.4.1",
+    "react-native": "0.41.0",
+    "react-native-circular-progress": "^0.0.8",
+    "react-native-cookies": "https://github.com/praveenperera/react-native-cookies.git",
+    "react-native-fetch-blob": "^0.10.2-beta.3",
+    "react-native-image-picker": "0.24.0",
+    "react-native-keyboard-aware-scrollview": "^1.1.5",
+    "react-native-linear-gradient": "2.0",
+    "react-native-sortable-listview": "^0.1.1",
+    "react-native-vector-icons": "^4.0.0",
+    "react-redux": "^5.0.1",
+    "redux": "^3.6.0",
+    "redux-logger": "^2.7.4",
+    "redux-thunk": "^2.1.0",
+    "shitty-qs": "^1.0.1"
+  },
+  "devDependencies": {
+    "babel-jest": "18.0.0",
+    "babel-preset-react-native": "1.9.1",
+    "babel-preset-react-native-stage-0": "^1.0.1",
+    "flow-bin": "^0.37.4",
+    "jest": "18.1.0",
+    "react-test-renderer": "15.4.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
