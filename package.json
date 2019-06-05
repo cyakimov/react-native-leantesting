@@ -15,7 +15,7 @@
     "@exponent/ex-navigation": "^2.6.0",
     "@exponent/react-native-image-gallery": "^1.0.4",
     "@shoutem/ui": "^0.10.3",
-    "axios": "^0.15.3",
+    "axios": "^0.18.1",
     "exponent": "^13.0.0-rc.1",
     "humps": "^2.0.0",
     "immutable": "^3.8.1",
